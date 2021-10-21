@@ -3,7 +3,6 @@ import { EMAIL_DISPATCH } from '../actions';
 
 const INITIAL_STATE = {
   email: '',
-  password: '',
 };
 
 function user(state = INITIAL_STATE, action) {
