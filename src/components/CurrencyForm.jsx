@@ -19,6 +19,8 @@ class CurrencyForm extends Component {
           </select>
         </label>
         <label htmlFor="Paypal">
+          {' '}
+          Método de pagamento
           <select name="Paypal" id="Paypal">
             <option value="Cartão de crédito">Cartão de crédito</option>
             <option value="Cartão de débito">Cartão de débito</option>
