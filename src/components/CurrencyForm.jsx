@@ -46,8 +46,6 @@ class CurrencyForm extends Component {
   }
 
   render() {
-    // eslint-disable-next-line no-unused-vars
-    const { value, description, currency, method, tag } = this.state;
     return (
       <form>
         <label htmlFor="value">
